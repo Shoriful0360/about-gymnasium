@@ -43,6 +43,7 @@ font-weight: 400;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .fitness{
     color: rgb(230, 83, 60);
@@ -78,10 +79,13 @@ font-weight: 400;
     border-radius: 20px;
     margin: 0;
 }
+.bar{
+    display: none;
+}
 /* banner-section-style */
 .banner-container{
     display: flex;
-    gap: 100px;
+    gap: 200px;
 }
 .banner-title{
     color: rgb(255, 255, 255);
@@ -164,4 +168,44 @@ font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
     font-weight: 400;
+}
+/* media quary mobile responsive */
+@media screen and (max-width: 576px) {
+    body{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menu-bar{
+        display: none;
+
+    }
+    .bar{
+        display: block;
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        width: 20px;
+        
+    }
+    .banner-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 2.4rem;
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        gap: 15px;
+    }
+    .card{
+        top: 250px;
+        left: 20px;
+        width: 150px;
+    }
+    .card-two{
+        top: 45px;
+        left:  200px;
+        width: 140px;
+    }
 }
