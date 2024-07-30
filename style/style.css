@@ -198,6 +198,33 @@ font-weight: 400;
     font-size: 1.1rem;
     font-weight: 600;
 }
+/* Run and extra mile easily */
+.run-container{
+    max-width: 1060px;
+    height: 370px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+.run-text-container{
+    margin: 40px 50px;
+}
+.run-text-container p{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.run-image-container{
+    /* width: 50%; */
+}
+.run-image-container img{
+    width: 360px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 15px;
+}
 /* media quary mobile responsive */
 @media screen and (max-width: 576px) {
     body{
@@ -256,5 +283,12 @@ font-weight: 400;
     .habit-image-content{
         width: 90%;
         margin: 0 a;
+    }
+    /* Run and extra mile easily */
+    .run-container{
+        flex-direction: column;
+    }
+    .run-image-container img{
+        margin: 0;
     }
 }
