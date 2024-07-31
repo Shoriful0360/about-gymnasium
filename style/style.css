@@ -414,6 +414,47 @@ table td{
     border: none;
     color: rgba(255, 255, 255, 0.6);
 }
+/* meet our team */
+.team-container{
+    max-width: 1060px;
+    margin: 80px auto;
+}
+.team-text-container{
+    text-align: center;
+}
+.team-text-container .text-description{
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    gap: 20px;
+}
+.team-image-container{
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.team-image-container img{
+    width: 325px;
+    height: 270px; 
+    opacity: 90%;
+    border-radius: 18px;
+}
+.team-leader-name{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.leader-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.profession{
+    color:#A3A3A4;
+}
+
 
 /* media quary mobile responsive */
 @media screen and (max-width: 576px) {
@@ -525,4 +566,9 @@ table td{
     .bmi-calculator-chart{
         margin: 0;
     }
+    /* meet our team */
+    .team-images{
+        grid-template-columns: 1fr;
+    }
+
 }
