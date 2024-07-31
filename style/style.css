@@ -225,6 +225,116 @@ font-weight: 400;
     margin: 30px;
     border-radius: 15px;
 }
+/* Trainig and exercise */
+
+.training-container{
+    max-width: 1060px;
+    margin: 100px auto;
+}
+.traing-text-content .text-description{
+    margin-top: 15px;
+}
+.training-image-continer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.training-image-continer img{
+    height: 200px;
+}
+.training-image-continer h1{
+    color: white;
+
+}
+.image-content-one{
+    width: 27%;
+    position: relative;
+    background: rgba(6, 255, 210, 0.5);
+}
+.image-content-one img{
+    width: 100%;
+    opacity: 30%;
+}
+.image-content-one .name{
+   top: 160px;
+   left: 20px;
+   color: #000;
+}
+.image-content-two{
+    width: 46%;
+    position: relative;
+    background: rgba(255, 0, 0, 0.3);
+
+}
+.image-content-two img{
+    width: 100%;
+    opacity: 50%;
+}
+.image-content-two .name{
+    top: 20px;
+    left: 20px;
+}
+.image-content-three{
+    width: 27%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+.image-content-three img{
+    width: 100%;
+    opacity: 50%;
+}
+.image-content-three .name{
+    bottom: 20px;
+    left: 20px;
+}
+.image-content-four{
+    width: 40%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+.image-content-four img{
+    width: 100%;
+    opacity: 40%;
+}
+.image-content-four .name{
+    top: 30px;
+    left: 250px;
+}
+.image-content-five{
+    width: 28%;
+    position: relative;
+    background: rgba(66, 255, 0, 0.3);
+}
+.image-content-five img{
+    width: 100%;
+    opacity: 45%;
+}
+.image-content-five .name{
+    bottom: 20px;
+    left: 40px;
+}
+.image-content-six {
+    width: 32%;
+    position: relative;
+    background: rgba(0, 71, 255, 0.3);
+}
+
+.image-content-six img{
+    width: 100%;
+    opacity: 40%;
+}
+.image-content-six .name{
+    bottom: 20px;
+    left: 40px;
+}
+.name{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.persone-name{
+    display: none;
+}
 /* media quary mobile responsive */
 @media screen and (max-width: 576px) {
     body{
@@ -287,8 +397,45 @@ font-weight: 400;
     /* Run and extra mile easily */
     .run-container{
         flex-direction: column;
+        height: auto;
     }
     .run-image-container img{
         margin: 0;
+        height: auto;
+    }
+    /* training and exercise */
+    
+    .image-content-one{
+        width: 50%;
+    }
+    .image-content-two{
+        width: 50%;
+    }
+    .image-content-three{
+        display: none;
+    }
+    .image-content-four{
+       width: 45%;
+    }
+    .image-content-five{
+        width: 55%;
+    }
+    .image-content-six{
+        display: none;
+    }
+    .image-content-four .name{
+        display: none;
+    }
+    .persone-name{
+        position: absolute;
+        display: block;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 500;
+        bottom: 20px;
+        left: 10px;
+    }
+    .image-content-five .name{
+        display: none;
     }
 }
