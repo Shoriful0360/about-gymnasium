@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sofia&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: "Inter", sans-serif;
     max-width: 1440px;
@@ -116,7 +115,7 @@ font-weight: 400;
     margin-left: 14px;
 }
 #shape{
-    font-family: "Sofia", cursive;
+    
 
 }
 /* images-content */
@@ -224,13 +223,16 @@ font-weight: 400;
     margin-bottom: 30px;
 }
 .run-image-container{
-    /* width: 50%; */
+    width: 360px;
+    height: 300px ;
 }
 .run-image-container img{
-    width: 360px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     margin: 30px;
     border-radius: 15px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
 /* Trainig and exercise */
 
@@ -276,6 +278,7 @@ font-weight: 400;
 .image-content-two img{
     width: 100%;
     opacity: 50%;
+    filter: brightness(120%);
 }
 .image-content-two .name{
     top: 20px;
@@ -315,6 +318,7 @@ font-weight: 400;
 .image-content-five img{
     width: 100%;
     opacity: 45%;
+    filter: brightness(120%);
 }
 .image-content-five .name{
     bottom: 20px;
@@ -329,6 +333,7 @@ font-weight: 400;
 .image-content-six img{
     width: 100%;
     opacity: 40%;
+    filter: brightness(100%);
 }
 .image-content-six .name{
     bottom: 20px;
