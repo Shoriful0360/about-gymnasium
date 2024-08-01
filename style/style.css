@@ -223,8 +223,9 @@ font-weight: 400;
     margin-bottom: 30px;
 }
 .run-image-container{
-    width: 360px;
+    width: 350px;
     height: 300px ;
+    
 }
 .run-image-container img{
     width: 100%;
@@ -233,6 +234,7 @@ font-weight: 400;
     border-radius: 15px;
     object-fit: none;
     object-position: 68% 30%;
+    
 }
 /* Trainig and exercise */
 
